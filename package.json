@@ -1,0 +1,24 @@
+{
+  "name": "node-connector-app-prototype",
+  "version": "1.0.0",
+  "description": "node connector app prototype",
+  "main": "src/app/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev nodemon --watch server --inspect ./src/app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shopify-isaackhoo/node-connector-app-prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shopify-isaackhoo/node-connector-app-prototype/issues"
+  },
+  "homepage": "https://github.com/shopify-isaackhoo/node-connector-app-prototype#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
