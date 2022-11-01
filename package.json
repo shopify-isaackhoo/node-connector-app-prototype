@@ -4,7 +4,7 @@
   "description": "node connector app prototype",
   "main": "src/app/index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=dev nodemon --watch server --inspect ./src/app/index.js",
+    "start": "cross-env NODE_ENV=dev nodemon ./src/app/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
